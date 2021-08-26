@@ -1,12 +1,10 @@
 import React from 'react';
-import Header from '../components/Header';
-import Navigation from '../components/Navigation';
+import Button from '../components/Button';
 const Home = () => {
   return (
     <div>
-      <Header />
-      <Navigation />
       <p>home page</p>
+      <Button>click me</Button>
     </div>
   );
 };
